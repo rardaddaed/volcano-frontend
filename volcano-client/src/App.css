@@ -1,0 +1,84 @@
+/* Country Volcanoes */
+.select-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.select-container .select-wrapper {
+  min-width: 250px;
+}
+
+/* Registration */
+.grid-container {
+  margin-top: 2rem;
+  height: 400px;
+}
+
+.register-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.register-card .register-form{
+  margin-bottom: 2rem;
+}
+
+.register-card .register-form .email-field{
+  margin-top: 1rem;
+}
+
+.register-card .register-form .password-field{
+  margin-top: 0.5rem;
+}
+
+.register-card .register-title{
+  margin-top: 1.5rem;
+}
+
+/* Login */
+.login-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.login-card .login-form{
+  margin-bottom: 2rem;
+}
+
+.login-card .login-form .email-field{
+  margin-top: 1rem;
+}
+
+.login-card .login-form .password-field{
+  margin-top: 0.5rem;
+}
+
+.login-card .login-title{
+  margin-top: 1.5rem;
+}
+
+/* Home */
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bg {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
+
+.center-text {
+  font-family: "Lucida Console", "Courier New", monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
